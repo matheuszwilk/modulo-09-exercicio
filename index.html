@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Cadastro de Lista de Tarefas</h1>
+    <button type="button" id="btnNovaTarefa">Nova Tarefa +</button>
+  </header>
+  <form id="taskForm">
+    <input type="text" id="taskInput" required placeholder="Nome da tarefa">
+    <button type="submit" id="btnCadastro">Cadastrar Tarefa</button>
+    <button type="reset" id="btnCancelar">Cancelar</button>
+  </form>
+  <ul id="taskList"></ul>
+  <form id="taskForm">
+  <h2>Contador de Tarefas Realizadas</h2> 
+  <li id="tarefasFeitas"></li>
+  <li id="tarefasPendentes"></li>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

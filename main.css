@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+form {
+    display: none;
+}
+
+header {
+    background-color: #5f27cd;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+    margin-left: 16px;
+    align-self: center; /* Adicionado para centralizar verticalmente */
+}
+
+
+
+#taskForm {
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 100%;
+}
+
+
+#taskInput {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5C6BC0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btnNovaTarefa {
+    background-color: #090057;
+}
+
+#btnNovaTarefa:active {
+    transform: scale(0.95);
+}
+
+#btnNovaTarefa:hover {
+    background-color: #070231;
+}
+
+
+#btnCadastro {
+    background-color: #196d00;
+    width: 100%;
+}
+
+#btnCadastro:active {
+    transform: scale(0.95);
+}
+
+#btnCadastro:hover {
+    background-color: #1a5508;
+}
+
+#btnCancelar {
+    background-color: #cc0202;
+    width: 100%;
+}
+
+#btnCancelar:active {
+    transform: scale(0.95);
+}
+
+#btnCancelar:hover {
+    background-color: #9c0c0c;
+}
+
+
+#tarefasFeitas {
+    margin-top: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding: 30px;
+}
+
+li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #bbb;
+}
